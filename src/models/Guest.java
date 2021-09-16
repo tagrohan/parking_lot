@@ -12,7 +12,7 @@ public class Guest extends User {
 
    public ParkingPass parkVehicle(ParkingLot parkingLot, int noOfHours) {
       Valet valet = new Valet();
-      valet.parkVehicle(parkingLot, this, noOfHours);
+      valet.parkVehicle(parkingLot, this);
       return new ParkingPass();
    }
 

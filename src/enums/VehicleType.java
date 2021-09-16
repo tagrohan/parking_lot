@@ -2,5 +2,5 @@ package enums;
 
 public enum VehicleType {
 
-   TWO_WHEELER, CAR;
+   TWO_WHEELER, CAR, LMV, HMV;
 }
